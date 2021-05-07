@@ -227,20 +227,19 @@ section{
 	font-size: 4.5vw;
 	}
 
-	#hours>span, #address>span{ /*hours and addres*/
-	font-size: 1.5em;
-	font-weight: bold;
-	font-family: dancing;
-	text-align: center;
+	.panel-footer section{
+		text-align: center;
+		padding: 20px;
 	}
 	#address>p{
 	color: green;
 	}
 
 	#testimonials p{ /*testimonial*/
-	font-style: italic;
-	font-family: dancing;
-	font-size: 1.1em;
+		text-align: center;
+	}
+	hr{ 
+		width: 40%;
 	}
 
 }
