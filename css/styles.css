@@ -1,5 +1,5 @@
 body{
-	color: maroon;
+	background-color: #61122f;
 }
 
 #header-nav{
@@ -103,7 +103,7 @@ body{
 }
 
 #menu-tile, #specials-tile, #map-tile{
-	border: 1px solid black;
+	border: 2px solid maroon;
 	width: 100%;
 	height: 250px;
 	position: relative;
