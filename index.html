@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" initial-scale=1>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Static site homepage</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+				<a href="index.html" class="pull-left visible-md visible-lg">
+					<div id=logo-img></div>
+				</a>
+				<div class="navbar-brand">
+					<a href="index.html"><h1>Al-Baik Restaurant & Cafe</h1></a>
+					<p>
+						<img src="images/star-k-logo.png" alt="Kosher Cert Logo">
+						<span>Certified Hilal Foods</span>
+					</p>
+				</div> <!-- .navbar-brand ends here -->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div> <!-- .navbar-header ends here -->
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href=""><span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">menu</a>
+						</li>
+						<li>
+							<a href=""><span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">about</a>
+						</li>
+						<li>
+							<a href=""><span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">awards</a>
+						</li>
+						<li id="phone" class="hidden-xs">
+							<a href="tel:061 1234567">061 1234567</a><div>We Deliver</div>
+						</li>
+					</ul>
+				</div>	<!-- .navbar-collapse ends here -->
+			</div>	<!-- .container ends here -->
+		</nav> <!-- .navbar ends here -->
+	</header>
+
+	<div id="call-btn" class="visible-xs">
+		<a href="tel:061 1234567" class="btn"><span class="glyphicon glyphicon-earphone"></span>061 1234567</a>
+	</div>
+
+	<div class="container">
+		<div class="jumbotron">
+			<img src="images/jumbotron_768.jpg" alt="Restaurant-picture" class="img-responsive visible-xs">
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class=" col-md-4 col-sm-6 col-xs-12">
+				<a href=""><div id="menu-tile"><span>menu</span></div></a>
+			</div>
+			<div class=" col-md-4 col-sm-6 col-xs-12">
+				<a href=""><div id="specials-tile"><span>specials</span></div></a>
+			</div>
+			<div class=" col-md-4 col-sm-12 col-xs-12">
+				<a href="https://goo.gl/maps/ygmk8XFo3Z1gCikL7" target="_blank">
+					<div id="map-tile"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220805.40301899405!2d71.21596405182962!3d30.149002276850847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b31412be8a9f1%3A0xa04678f1e3ece7f2!2sAl%20Baik%20Restaurant%20Bar%20BQ!5e0!3m2!1sen!2s!4v1620381310953!5m2!1sen!2s" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe><span>map</span></div></a>
+			</div>
+		</div>
+	</div>
+
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<section id="hours" class="col-sm-4">
+					<span>Hours</span><br>
+					Monday-Thursday: 09:30-21:30<br>
+					Friday: Closed<br>
+					Saturday-Sunday: 09:3-00:30<br>
+				</section>
+				<section id="address" class="col-sm-4">
+					<span>Address</span><br>
+					7105 Reisterstown Road<br>
+					Baltimore, MD 21215<br>
+					<p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+				</section>
+				<section id="testimonials" class="col-sm-4">
+					<p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+					<p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+				</section>
+			</div>
+			<div class="text-center">&copy; Copyrights Al Baik Restaurant & Cafe @Soomro</div>
+		</div>
+	</footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
