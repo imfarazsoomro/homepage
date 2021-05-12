@@ -174,13 +174,12 @@ h2+div{
 
 .panel-footer{
 	background-color: grey;
+	margin-top: 40px;
 	border-top: 0;
-}
-
-#footer section{
-	padding: 50px;
-	font-size: 1.2em;
+	padding-top: 50px;
+	padding-bottom: 20px;
 	color: white;
+	font-size: 1.2em;
 }
 
 #hours>span, #address>span{ /*hours and addres*/
@@ -201,6 +200,9 @@ h2+div{
 
 #testimonials p:nth-child(2){
 	margin-top: 25px;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
 }
 
 /*Media queries for large devices*/
